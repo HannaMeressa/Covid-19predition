@@ -1,53 +1,6 @@
-# Covid-19predition
-# Preventive measures during pandemic in data mining
 
-This study applies an improved mathematical model to analyse and predict the growth of the epidemic. An ML-based improved model has been applied to predict the potential threat of COVID-19 in countries worldwide. We show that using iterative weighting for fitting Generalized Inverse Weibull distribution, a better fit can be obtained to develop a prediction framework. This has been deployed on a cloud computing platform for more accurate and real-time prediction of the growth behavior of the epidemic. Interactive prediction graphs can be seen at: https://collaboration.coraltele.com/covid/.
 
-## Quick installation of real-time prediction webapp
+%%html
+<div class='tableauPlaceholder' id='viz1554949555004' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sh&#47;shop_items_count-itemFilter&#47;Sheet3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value=''/><param name='name' value='shop_items_count-itemFilter&#47;Sheet3' /><param name='tabs' value='no' />
+<param name='toolbar' value='yes' /><param name='static_image  value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sh&#47;shop_items_count-itemFilter&#47;Sheet3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1554949555004');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
-To install and run the dynamic real-time prediction webapp on your server run the following commands:
-```
-$ git clone https://github.com/HannaMeressa/preventiv.git
-$ mv covid-19-prediction covid
-$ chmod +x run.sh
-$ ./run.sh
-```
-To access your server go to $HOSTNAME/covid/ from your browser. The webapp is hosted on https://collaboration.coraltele.com/cHannaMeressa/preventiv/ where graphs get updated daily based on new data.
-
-## Dataset
-
-We use the <i>[Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/)</i> dataset for predicting number of new cases and deaths in various countries.
-
-## Developer
-
-[Hanna Meressa](https://www.github.com/HannaMeressa) (hanna.me2010@gmail.com)
-
-## Cite this work
-If you use our static model, please cite:
-```
-@article{tuli2020predicting,
-title = "Preventive measures during pandemic in data mining",
-journal = "Internet of Things",
-pages = "100--222",
-year = "2020",
-issn = "2542-6605",
-doi = "https://doi.org/10.1016/j.iot.2020.100222",
-url = "http://www.sciencedirect.com/science/article/pii/S254266052030055X",
-author = "Hanna Meressa",
-}
-```
-If you use our dynamic model, please cite:
-```
-@article{tuli2020modelling,
-  title={Modelling for prediction of the spread and severity of COVID-19 and its association with socioeconomic factors and virus types},
-  author={Hanna Meressa},
-  journal={medRxiv},
-  year={2020},
-  publisher={Cold Spring Harbor Laboratory Press}
-}
-```
-
-## References
-* **Shreshth Tuli, Shikhar Tuli, Rakesh Tuli and Sukhpal Singh Gill, [Predicting the Growth and Trend of COVID-19 Pandemic using Machine Learning and Cloud Computing.](https://www.sciencedirect.com/science/article/pii/S254266052030055X?via%3Dihub) Internet of Things, ISSN: 2542-6605, Elsevier Press, Amsterdam, The Netherlands, May 2020.** ([Open access link](https://www.medrxiv.org/content/10.1101/2020.05.06.20091900v1))
-* **Shreshth Tuli, Shikhar Tuli, Ruchi Verma and Rakesh Tuli, [Modelling for prediction of the spread and severity of COVID-19 and its association with socioeconomic factors and virus types.](https://www.medrxiv.org/content/10.1101/2020.06.18.20134874v1) medRxiv, June 2020.** ([Open access link](https://www.medrxiv.org/content/10.1101/2020.06.18.20134874v1))
-* **World Health Organization (WHO). Natural ventilation for infection control in health care settings. Geneva, WHO, 2009 (http://whqlibdoc.who.int/publications/2009/9789241547857_eng.pdf).
