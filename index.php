@@ -8,7 +8,7 @@
             <h3><b>Data Mining</b> Project<br><h3>
 		    <b>Hanna Meressa</b> <br>
             
-            </a></i> for more details. Source code available on <i><a href='https://github.com/HannaMeressa/covid-19'>GitHub
+            </a></i> for more details. Source code available on <i><a href='https://github.com/HannaMeressa/Covid-19predition'>GitHub
 
             <br>
 
